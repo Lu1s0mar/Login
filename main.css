@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://img1.wallspic.com/crops/2/8/0/0/30082/30082-dispositivo_electronico-luz-ingenieria_mecanica-informacion-barra_de_espacio-2480x1482.jpg");
+    background-size: cover;
+    font-family: cursive;
+    height: 100v;
+
+  }
+  .logeate {
+    width: 250px;
+    height: 350px;
+    background: rgb(14, 0, 19);
+    color: rgb(36, 200, 230);
+    top: 45%;
+    left: 82%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 45px 20px;
+    border-radius: 10px;
+  }
+  
+  .logito {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: calc(55% - 50px);
+  }
+  
+  .logeate h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .logeate label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .logeate input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .logeate input[type="text"], .logeate input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(247, 240, 240);
+    font-size: 16px;
+  }
+  
+  .logeate input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1204df;
+    color: rgb(227, 232, 236);
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .logeate input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+  .logeate a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(228, 238, 252);
+  }
+  
+  .logeate a:hover {
+    color: #fff;
+  }
